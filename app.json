@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "destaquenoticias",
+    "name": "Destaque Notícias",
     "slug": "destaquenoticias",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -16,7 +16,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.murillo_smit.destaquenoticias"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +38,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "bf5e1c87-3ebf-4dda-99db-0861e26174e9"
+      }
     }
   }
 }
